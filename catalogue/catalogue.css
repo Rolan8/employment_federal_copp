@@ -1,0 +1,287 @@
+:root{
+	--main-bgcolor: #F2F2F2; /*#EDF1FD*/
+	--main-marqcolor: #1587c2;
+	--main-bordcolor: #bdbdbd;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 350px;
+	/*overflow: hidden;*/
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+h2,h1{
+	margin: 0;
+}
+
+button{
+	cursor: pointer;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 100;
+}
+
+
+nav{
+	display: flex;/*display: none;*/
+	justify-content: space-around;
+	align-items: center;
+	background-attachment: fixed;
+	padding: 15px 0px;
+	flex-wrap: wrap;
+	row-gap: 20px;
+}
+
+
+ul{
+	margin: 0;
+
+}
+
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.images img{
+	height: 65px;
+}
+
+.llist{
+	text-align: center;
+	line-height: 1.5;
+	margin-inline: 10px;
+}
+
+.llist a{
+	font-weight: bold;
+	letter-spacing: .5px;
+	padding: 5px 0px;
+	font-size: 17px;
+}
+
+.categ{
+	margin-inline: 40px;
+}
+
+
+.buttons_top{
+	text-align: center;
+}
+
+.buttons_top button:first-child{
+	color: blue;
+	font-weight: bold;
+	background-color: var(--main-marqcolor) /*transparent*/;
+	border-color: var(--main-marqcolor) /*blue */;
+	font-size: 14px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin-right: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.buttons_top button:last-child{
+	color: white;
+	font-weight: bold;
+	padding: 10px 30px;
+	border-radius: 10px;
+	font-size: 14px;
+	background-color: var(--main-marqcolor) /*#3052D8*/;
+	border-color: var(--main-marqcolor) /*#3052D8*/;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+
+.buttons_top button:first-child:hover{
+	color: white;
+	background-color: #3052D8;
+}
+
+.buttons_top button:last-child:hover{
+	background-color: #005afe;
+	border-color: #005afe;
+}
+
+
+.choosecourse{
+	/*margin-top: 50px;*/
+	padding-top: 200px;
+	margin-inline: 10px;
+}
+
+
+.course_list{
+	margin: 50px 0px 60px 0px;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	/*justify-content: space-between;*/
+}
+
+.the_category{
+	font-weight: bold;
+	font-size: 18px;
+	background-color: var(--main-bgcolor) /*#edf0fd*/;
+	border-radius: 20px;
+	padding: 11px 20px;
+	letter-spacing: .4px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+/*#4b69ff*/
+/*.the_category:hover{
+	background-color: var(--main-marqcolor) ;
+	color: white;
+}*/
+
+.the_category:first-child{
+	background-color: var(--main-marqcolor) /*#4b69ff*/;
+	color: white;
+}
+
+.one_course{
+	display: flex;
+	margin-bottom: 1rem;
+	/*align-items: center;*/
+}
+
+.one_course h2{
+	line-height: 1.3;
+}
+
+.course_photo{
+	min-width: 220px;
+	margin-right: 20px;
+	max-width: 220px;
+}
+
+.course_photo img{
+	width: 100%;
+}
+
+.course_text{
+	letter-spacing: .3px;
+}
+
+.course_text p{
+	color: #5a5a5a;
+	margin: 10px 0px;
+	font-size: 18.5px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.one_course{
+	background-color: var(--main-bgcolor) /*#edf0fd*/;
+	padding: 23px 15px;
+	border-radius: 20px;
+}
+
+
+
+footer{
+	background-color: var(--main-marqcolor) /*#3052D8*/;
+	color: white;
+	padding: 50px 0px 50px 0px;
+	margin-top: 100px;
+}
+
+.join_imgs svg{
+	width: 35px;
+	height: 35px;
+}
+
+.foot_flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	row-gap: 1rem;
+}
+
+.foot_step{
+	display: flex;
+	gap: .5em;
+	max-width: 300px;
+}
+
+
+.foot_logo_disc{
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+.foot_step span{
+	font-size: 1.2em;
+}
+
+.foot_logo_img img{
+	width: 100px;
+}
+
+
+.foot_step_2{
+	text-align: center;
+}
+
+.foot_step_2 button{
+	font-size: 15px;
+	color: var(--main-marqcolor); /*#3052D8*/
+	font-weight: bold;
+	padding: 16px 50px;
+	border: 0;
+	border-radius: 10px;
+	margin-bottom: 40px;
+}
+
+.join_text{
+	font-size: 17px;
+	margin-bottom: 1em;
+}
+
+.join_imgs{
+	letter-spacing: 1.2em;
+}
+
+.foot_step_3{
+	font-size: 1.6em;
+	line-height: 2;
+}
+
+.foot_step_3 a{
+	text-decoration: underline;
+}
+
+.foot_step_3,.foot_step_2{
+	margin-top: 20px;
+}
+
+.thecourses a{
+	display: block;
+}
+
+.thecourses{
+	margin-inline: 10px;
+}
