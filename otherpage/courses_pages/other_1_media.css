@@ -1,0 +1,145 @@
+@media(max-width: 1190px){
+	.sodeistvie{
+		display: none;
+	}
+
+}
+
+
+@media(max-width: 921px){
+	.whois_course,.studyflex{
+		flex-direction: column;
+		row-gap: 1.5rem;
+		margin-inline: 20px;
+	}
+
+
+	.text_telka{
+		margin-left: 0;
+	}
+
+	.reasons_flex{
+		justify-content: center;
+		margin-inline: 20px;
+		row-gap: 2.3rem;
+	}
+
+	/*.cards1{
+		min-height: unset;
+	}*/
+
+	.whois_discript{
+		font-size: 1.1rem;
+	}
+
+	.only_adjust{
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+
+	.course_program{
+		margin: 0 30px;
+	}
+
+	.course_slize{
+		margin: 30px 0px 25px 0px;
+	}
+}
+
+
+@media(max-width: 880px){
+
+	.course_teachers h2, .skills h2, .how_it_goes h2{
+		margin-bottom: 40px;
+	}
+
+	.the_teachers{
+		flex-direction: column;
+		text-align: center;
+		max-width: 90%;
+		margin: 0 auto;
+		row-gap: 1.5rem
+	}
+
+	.teacher_pic{
+		margin: 0 auto;
+	}
+
+	.skills_flex{
+		flex-direction: column;
+		row-gap: 1.5rem;
+	}
+
+	.only_adjust{
+		margin-inline: 10px;
+	}
+
+	.how_it_goes_flex{
+		flex-direction: column;
+	}
+
+	.paper_flex{
+		justify-content: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.paper_text,.paper_image{
+		flex-basis: unset;
+		font-size: 1.4rem;
+	}
+
+	.skills h2{
+		font-size: 28px;
+	}
+}
+
+
+
+@media (max-width: 561px){
+
+	.studyflex {
+    margin-inline: auto;
+    row-gap: 0rem;
+}
+
+.paper_text{
+		font-size: 1.1rem;
+	}
+
+	.hideit_but:last-child{
+		font-size: 17px;
+	}
+
+	/*.to_next_part_2{
+		grid-template-columns: 1fr 1fr 1fr;
+	}*/
+
+	.image_telka{
+		max-width: 55%;
+	}
+
+	.text_telka h2{
+		font-size: 1.3rem;
+	}
+
+	.telka_p{
+		margin: 13px 0px 20px 0px;
+		font-size: 1rem;
+	}
+
+	.dttext{
+		font-size: .8rem;
+	}
+
+	.study_text h3,.whois_discript,.paper_text{
+		font-size: 1rem;
+	}
+
+	.skills h2,.form_disc h2{
+		font-size: 1.2rem;
+	}
+
+
+}
