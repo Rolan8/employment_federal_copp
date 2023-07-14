@@ -1,0 +1,57 @@
+.nav_unit:first-child{
+	color: unset;
+}
+
+.nav_unit:first-child:hover{
+	color: #029863;
+}
+
+h1{
+	font-family: geosemibold;
+}
+
+
+.the_new_container{
+	max-width: 90%;
+	margin-inline: auto;
+	margin-top: 2rem;
+}
+
+
+.n_main_image{
+	width: 90%;
+	margin-top: 1.5rem;
+	margin-inline: auto;
+}
+
+.n_main_image img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.n_date_2{
+	font-size: 16px;
+	font-family: geolight;
+}
+
+.n_main_text{
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	border-bottom: 2px solid;
+}
+
+.n_main_text p{
+	font-family: geolight;
+	line-height: 1.5;
+	font-size: .9rem;
+	margin-top: 10px;
+}
+
+.n_main_text h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.n_main_text>div{
+	margin-bottom: 2rem;
+}
